@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY app.py .
+COPY amazon.py .
 
 # Command to run the script
 CMD ["python", "amazon.py"]
